@@ -1,0 +1,311 @@
+using System;
+using System.Drawing;
+
+namespace ImgProcessing
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Bitmap bmp = new Bitmap(600, 600);
+           
+          
+            #region layar1
+
+            for (int y = 101; y < 150; y++)
+            {
+              for (int x = 101; x <= 500; x++)
+                 {
+
+                            bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                 }               
+            }
+            #endregion
+            #region middle
+            for (int y = 150; y < 350; y++)
+            {
+                for (int x = 101; x <= 150; x++)
+                {
+
+                    bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                }
+            }
+            #endregion
+            #region middle2
+            for (int y = 150; y < 350; y++)
+            {                         
+                    for (int x = 450; x <= 500; x++)
+                    {
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+                    }
+                
+            }
+            #endregion
+            #region Layar2
+            for (int y = 350; y < 400; y++)
+            {
+                for (int x = 101; x <= 500; x++)
+                {
+
+                    bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                }
+            }
+            #endregion
+            #region Layar3
+            for (int y = 400; y < 450; y++)
+            {
+                for (int x = 201; x <= 400; x++)
+                {
+
+                    bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                }
+            }
+            #endregion
+            #region Layar4
+            for (int y = 450; y < 500; y++)
+            {
+                for (int x = 101; x <= 500; x++)
+                {
+
+                    bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                }
+            }
+            #endregion
+            #region ToyInsideWidth
+            for (int y = 200; y < 300; y++)
+            {
+                if (y == 200)
+                {
+                    for (int x = 250; x <= 350; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (y == 201)
+                {
+                    for (int x = 250; x <= 350; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+               
+                else if (y == 201)
+                {
+                    for (int x = 250; x <= 350; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (y == 280)
+                {
+                    for (int x = 250; x <= 350; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (y == 281)
+                {
+                    for (int x = 250; x <= 350; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (y == 299)
+                {
+                    for (int x = 200; x <= 400; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (y == 300)
+                {
+                    for (int x = 200; x <= 400; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+            }
+            #endregion
+            #region ToyInsideHeight
+            for (int x = 200; x < 400; x++)
+            {
+                if (x == 200)
+                {
+                    for (int y = 300; y <= 350; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+               
+                else if (x == 250)
+                {
+                    for (int y = 200; y <= 279; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+
+                else if (x == 280)
+                {
+                    for (int y = 281; y <= 300; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (x == 320)
+                {
+                    for (int y = 281; y <= 300; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (x == 350)
+                {
+                    for (int y = 200; y <= 279; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (x == 400)
+                {
+                    for (int y = 300; y <= 350; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+
+            }
+            #endregion
+            #region toyEyes
+            for (int y = 220; y <= 222; y++)
+            {
+                if (y == 220)
+                {
+                    for (int x = 280; x <= 283; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (y == 221)
+                {
+                    for (int x = 280; x <= 283; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (y == 222)
+                {
+                    for (int x = 280; x <= 283; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+
+
+            }
+            for (int x = 320; x <= 323; x++)
+            {
+                if (x == 320)
+                {
+                    for (int y = 220; y <= 222; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+               else if (x == 321)
+                {
+                    for (int y = 220; y <= 222; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (x == 322)
+                {
+                    for (int y = 220; y <= 222; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                else if (x == 323)
+                {
+                    for (int y = 220; y <= 222; y++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+
+            }
+            #endregion
+            #region toyMouth
+            for (int y = 235; y < 236; y++)
+            {
+                if (y == 235)
+                {
+                    for (int x = 290; x <= 310; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+                if (y == 236)
+                {
+                    for (int x = 290; x <= 310; x++)
+                    {
+
+                        bmp.SetPixel(x, y, Color.FromArgb(0, 0, 0));
+
+                    }
+                }
+            }
+
+                #endregion
+                bmp.Save("test.png");
+        }
+    }
+}
